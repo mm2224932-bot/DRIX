@@ -115,3 +115,18 @@
     height: 320px;
   }
 }
+
+@media (max-width: 640px) {
+  .cart-item {
+    padding: 1.25rem;
+  }
+
+  .product-meta-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .summary-card {
+    padding: 1.5rem;
+  }
+}

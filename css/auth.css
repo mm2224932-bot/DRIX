@@ -58,3 +58,14 @@
   margin-top: 1rem;
   color: var(--text-muted);
 }
+
+@media (max-width: 640px) {
+  .auth-card {
+    padding: 1.5rem;
+    width: min(100%, 100%);
+  }
+
+  .auth-shell {
+    padding: 2.5rem 1rem;
+  }
+}

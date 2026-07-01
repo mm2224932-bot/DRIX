@@ -95,3 +95,20 @@
     width: 100%;
   }
 }
+
+@media (max-width: 640px) {
+  .checkout-form,
+  .order-summary-card {
+    padding: 1.5rem;
+  }
+
+  .payment-methods label {
+    grid-template-columns: 1fr;
+  }
+
+  .order-summary-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+}

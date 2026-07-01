@@ -149,3 +149,24 @@
     display: flex;
   }
 }
+
+@media (max-width: 640px) {
+  .shop-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .product-meta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product-actions {
+    flex-direction: column;
+  }
+
+  .shop-card {
+    border-radius: 24px;
+  }
+}

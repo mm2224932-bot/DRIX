@@ -165,3 +165,34 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+@media (max-width: 640px) {
+  .product-gallery,
+  .product-details {
+    gap: 1.25rem;
+  }
+
+  .gallery-thumbnails {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .price-row,
+  .product-actions,
+  .product-links,
+  .selectors {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .selector-group {
+    width: 100%;
+  }
+
+  .quantity-row {
+    justify-content: space-between;
+  }
+
+  .product-price {
+    font-size: 1.8rem;
+  }
+}
