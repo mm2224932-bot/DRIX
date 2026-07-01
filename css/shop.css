@@ -1,0 +1,151 @@
+/* Shop page specific styles */
+.shop-layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 2rem;
+}
+
+.filter-panel {
+  padding: 2rem;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 32px;
+  box-shadow: var(--shadow);
+}
+
+.filter-group {
+  display: grid;
+  gap: 0.8rem;
+  margin-bottom: 1.75rem;
+}
+
+.filter-group h3 {
+  margin: 0;
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.filter-group input,
+.filter-group select {
+  width: 100%;
+  padding: 0.95rem 1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.05);
+  color: #f5f5f5;
+}
+
+.shop-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+#product-count {
+  color: var(--text-muted);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.shop-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease;
+}
+
+.shop-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(255,255,255,0.18);
+}
+
+.shop-card img {
+  width: 100%;
+  display: block;
+}
+
+.product-card-body {
+  padding: 1.5rem;
+}
+
+.product-card-body h3 {
+  margin: 0 0 0.8rem;
+  font-size: 1.25rem;
+}
+
+.product-card-body p {
+  margin: 0 0 1rem;
+  color: #ccc;
+}
+
+.product-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-weight: 700;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: var(--text-muted);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(245,245,245,0.12);
+  color: #f5f5f5;
+  font-size: 0.8rem;
+}
+
+.product-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.product-actions button,
+.product-actions .text-link {
+  flex: 1;
+}
+
+.pagination-mobile {
+  display: none;
+  margin-top: 2rem;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .shop-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .filter-panel {
+    display: none;
+  }
+
+  .pagination-mobile {
+    display: flex;
+  }
+}

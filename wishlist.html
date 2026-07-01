@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your DRIX wishlist of favorite luxury products.">
+    <title>Wishlist | DRIX</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="container header-inner">
+                <a href="index.html" class="logo" aria-label="DRIX Home">
+                    <img src="images/logo-white.svg" alt="DRIX logo" class="site-logo">
+                </a>
+
+                <nav class="navbar" aria-label="Primary navigation">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="wishlist.html">Wishlist</a></li>
+                        <li><a href="login.html?redirect=dashboard.html">Dashboard</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <a href="#" class="icon-button" aria-label="Search">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="wishlist.html" class="icon-button" aria-label="Wishlist">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.75 21.35L12 20.65L11.25 21.35C6.92 17.59 4 14.94 4 11.5C4 8.42 6.42 6 9.5 6C11.24 6 12.91 6.81 13.82 8.09C14.73 6.81 16.4 6 18.14 6C21.22 6 23.64 8.42 23.64 11.5C23.64 14.94 20.72 17.59 16.39 21.35Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="cart.html" class="icon-button" aria-label="Shopping bag">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 7V6.5C6 4.01472 8.01472 2 10.5 2H13.5C15.9853 2 18 4.01472 18 6.5V7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M4 7H20L18.5 21H5.5L4 7Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="login.html" class="icon-button" aria-label="User account">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M4 21C4 16.5817 7.58172 13 12 13C16.4183 13 20 16.5817 20 21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="shop.html" class="btn btn-primary cta-button">Shop Now</a>
+                </div>
+
+                <button class="menu-toggle" aria-label="Open navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+
+        <main class="section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <p class="section-label">Wishlist</p>
+                    <h2>Your favorite DRIX products.</h2>
+                </div>
+                <div id="wishlist-items" class="cart-items-panel animate-on-scroll"></div>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-grid">
+                <div>
+                    <a href="index.html" class="logo">
+                    <img src="images/logo-white.svg" alt="DRIX" class="site-logo">
+                </a>
+                    <p>Luxury streetwear built for modern confidence.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">TikTok</a>
+                    <a href="#">Facebook</a>
+                </div>
+                <p class="footer-copy">© 2026 DRIX. All rights reserved.</p>
+            </div>
+        </footer>
+        <button class="back-to-top" aria-label="Back to top">↑</button>
+    </div>
+    <script src="js/products.js"></script>
+    <script src="js/site-settings.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wishlist.js"></script>
+</body>
+</html>
+
+
+
+

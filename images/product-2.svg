@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 220" role="img" aria-labelledby="product2Title">
+  <title id="product2Title">Hoodie illustration</title>
+  <rect width="280" height="220" rx="30" fill="#111827"/>
+  <path d="M70 52c0-10 8-18 18-18h104c10 0 18 8 18 18v140c0 10-8 18-18 18H88c-10 0-18-8-18-18V52z" fill="#f8fafc"/>
+  <path d="M95 50c0-11 9-20 20-20h50c11 0 20 9 20 20v20H95V50z" fill="#e2e8f0"/>
+  <path d="M115 110h50v16h-50z" fill="#cbd5e1"/>
+  <path d="M98 160c10 8 30 18 44 18s34-10 44-18" fill="none" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+</svg>

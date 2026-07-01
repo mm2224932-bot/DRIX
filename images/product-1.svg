@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 220" role="img" aria-labelledby="product1Title">
+  <title id="product1Title">Oversized T-Shirt illustration</title>
+  <rect width="280" height="220" rx="30" fill="#111827"/>
+  <path d="M80 40h120l12 24 8 92c0 12-10 22-22 22H82c-12 0-22-10-22-22l8-92 12-24z" fill="#f8fafc"/>
+  <path d="M110 60h60v22h-60z" fill="#e2e8f0"/>
+  <path d="M104 96c0 8 8 15 18 15s18-7 18-15v-16H104v16z" fill="#cbd5e1"/>
+  <path d="M88 132c6 4 18 10 25 10s19-6 25-10" fill="none" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+</svg>
